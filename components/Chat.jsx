@@ -20,10 +20,10 @@ const Chat = () => {
 			};
 		})(
 			window,
-			"https://cdn-v1.intelliticks.com/prod/common",
+			"https://netquize.vercel.app/chat",
 			document,
 			"script",
-			"https://app.intelliticks.com",
+			"https://netquize.vercel.app",
 			"u3cWw3sDpdKexqXCY_c",
 			{}
 		);
