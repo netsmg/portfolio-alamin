@@ -121,7 +121,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Alamins"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -333,8 +333,8 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:alaminrcc24@gmail.com?subject=Hello&body=Hello Alamin,">
+											alaminrcc24@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
