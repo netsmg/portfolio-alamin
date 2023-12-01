@@ -51,7 +51,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Alamins"
 												placeholder="blur"
 											/>
 										</div>
