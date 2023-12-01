@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.alvalens.my.id/sitemap2.xml
+Sitemap: https://portfolio-alamin/sitemap2.xml
