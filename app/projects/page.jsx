@@ -8,7 +8,7 @@ import Image from "next/legacy/image";
 // images
 import ReactChat1 from "@/public/projects/netquize/netquize1.png";
 import ReactChat2 from "@/public/projects/netquize/netquize2.png";
-import ReactChat3 from "@public/projects/netquize/netquize4.png";
+import ReactChat3 from "@public/projects/netquize/netquize2.png";
 import ProjectAll from "@/public/img/projects-all.jpg";
 // main project image
 import ReactChatMain from "@/public/projects/main-project/react-chat.png";
