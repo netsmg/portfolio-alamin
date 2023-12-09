@@ -26,12 +26,12 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
 	{
-		title: "React Chat WebApp",
-		desc: "My second React project. This project is a realtime chat webapp that I created using ReactJS, Firebase, and TailwindCSS.",
+		title: "NetQuize",
+		desc: "My second React project. This project is a realtime Quize app that I created using ReactJS, Firebase, and TailwindCSS.",
 		year: "2023",
 		tech: "Javascript, React Js, Firebase, Daisy UI",
 		bg: ReactChatMain,
-		slug: "react-chat",
+		slug: "NetQuize",
 	},
 	{
 		title: "React Tools",
