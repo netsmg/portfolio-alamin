@@ -1,7 +1,7 @@
 {
   "Projects": [
     {
-      "title": "NetQuize,
+      "title": "NetQuize",
       "desc": [
         "My ambitious project that delves into the world of interactive web development using React. This project is a realtime Quize application that allows users to create quize and take, share with other users in realtime. The application is built using React, Firebase, and Tailwind.",
         "This project is my second react project and my first project using Firebase. I learned a lot about how to use Firebase and how to use React to create a realtime application. I also learned how to use Tailwind, a CSS framework that is built on top of Tailwind CSS. "
