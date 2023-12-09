@@ -10,10 +10,10 @@
       "preview": "https://netquize.vercel.app",
       "code": "https://github.com/netsmg/netquize",
       "images": [
-        "/projects/chat/chat1.png",
-        "/projects/chat/chat2.png",
-        "/projects/chat/chat3.png",
-        "/projects/chat/chat4.png"
+        "/projects/netquize/netquize1.png",
+        "/projects/netquize/netquize2.png",
+        "/projects/netquize/netquize3.png",
+        "/projects/netquize/netquize4.png"
       ],
       "tech": [
         "JavaScript",
