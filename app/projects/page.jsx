@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/legacy/image";
 
 // images
-import ReactChat1 from "@/public/projects/react-chat.png";
-import ReactChat2 from "@/public/projects/react-chat2.png";
-import ReactChat3 from "@/public/projects/react-chat3.png";
+import ReactChat1 from "@/public/projects/netquize/netquize1.png";
+import ReactChat2 from "@/public/projects/netquize/netquize2.png";
+import ReactChat3 from "@public/projects/netquize/netquize4";
 import ProjectAll from "@/public/img/projects-all.jpg";
 // main project image
 import ReactChatMain from "@/public/projects/main-project/react-chat.png";
@@ -235,10 +235,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							React Chat WebApp
+							Netquize
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							React Chat WebApp is a chat application that I
+							NetQuize is a Quize application that I
 							created using ReactJS, Firebase, and TailwindCSS.
 							This is my second project using ReactJS and
 							Firebase. I created this project to learn more about
@@ -253,11 +253,11 @@ export default function Page() {
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/react-chat ">More</Link>
+								<Link href="projects/NetQuize ">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://react-chat-rouge.vercel.app/"
+									href="https://netquize.vercel.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
@@ -308,7 +308,7 @@ export default function Page() {
 								{/* Add relative here */}
 								<Image
 									src={project.bg.src}
-									alt="Alvalens"
+									alt="alamin"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
