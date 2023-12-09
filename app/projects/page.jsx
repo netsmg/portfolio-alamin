@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/legacy/image";
 
 // images
-import ReactChat1 from "@/public/projects/netquize/netquize1.png";
-import ReactChat2 from "@/public/projects/netquize/netquize2.png";
-import ReactChat3 from "@public/projects/netquize/netquize2.png";
+import ReactChat1 from "@/public/react-chat.png";
+import ReactChat2 from "@/public/react-chat2.png";
+import ReactChat3 from "@public/react-chat3.png";
 import ProjectAll from "@/public/img/projects-all.jpg";
 // main project image
 import ReactChatMain from "@/public/projects/main-project/react-chat.png";
