@@ -290,7 +290,7 @@ export default function Page() {
 				<div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
 					{/* loop projeects data */}
 					{projects.map((project, index) => (
-						<Link href={"projects/" + project.slug} key={index}>
+						<Link href={"blog/" + project.slug} key={index}>
 							<motion.div
 								className="z-10 relative flex justify-center items-start flex-col mb-5 md:px-10 w-full h-auto bg-gray-400 group/tes py-20 px-5 md:py-2 aspect-video "
 								initial={{
