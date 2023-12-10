@@ -140,7 +140,7 @@ export default function Page() {
         </div>
       </div>
     </div>
-							
+		</motion.div>					
 					</motion.div>
 				</div>
 			</main>
