@@ -399,7 +399,7 @@ export default function Page() {
 							Our North Star: Mission and Values
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
-						    In this digital cosmos, our mission pulsates with the rhythm of innovation. We are here to empower, educate, and exhilarate. We value authenticity, inclusivity, and the relentless pursuit of knowledge. TechInsightsHub is more than a website; it's a commitment to nurturing a global community tethered by the strings of technological wonder.
+						    In this digital cosmos, our mission pulsates with the rhythm of innovation. We are here to empower, educate, and exhilarate. We value authenticity, inclusivity, and the relentless pursuit of knowledge. TechInsightsHub is more than a website; it&rsquo;s a commitment to nurturing a global community tethered by the strings of technological wonder.
 
 							
 						</h3>
