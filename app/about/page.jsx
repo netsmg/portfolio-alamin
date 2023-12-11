@@ -12,7 +12,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 // images
 import Me1 from "@/public/img/me1.jpg";
-import Me2 from "@/public/img/me2.jpg";
+import Me2 from "@/public/img/logo.svg";
 import Me3 from "@/public/img/me3.jpg";
 import Hr from "@/components/Hr";
 export default function Page() {
