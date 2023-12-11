@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0">
 							<Image
 								src={Me2}
-								alt="Alvalens"
+								alt="techinsightshub"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -51,14 +51,15 @@ export default function Page() {
 					</div>
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
-							About Me
+							About 
 						</h1>
 						<Hr />
-						<p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">
-							A brief introduction about me and{" "}
+						<p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">Welcome to TechInsightsHub:
+						{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								my interest.
+								Unleashing the Pulse of Tech Brilliance.
+								
 							</span>
 						</p>
 						<motion.div
@@ -80,7 +81,7 @@ export default function Page() {
 					<div className="flex justify-center items-center flex-col my-5 self-start ">
 						<div className="bg-gray-700 w-28 h-1 rounded-full mb-3 self-start"></div>
 						<div className="bg-gray-700 w-28 h-1 rounded-full translate-x-12"></div>
-						<h1 className="text-3xl font-bold mt-3">Who Am I?</h1>
+						<h1 className="text-3xl font-bold mt-3">Who Are We?</h1>
 					</div>
 				</div>
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
@@ -97,7 +98,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me1}
-										alt="Alvalens"
+										alt="techinsightshub"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -120,7 +121,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me2}
-										alt="Alvalens"
+										alt="techinsightshub"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -145,7 +146,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me3}
-										alt="Alvalens"
+										alt="techinsightshub"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -170,38 +171,34 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Alvalen Shafelbilyunazra
+						TechInsightsHub:
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						    
+							a
 							<span className="text-black font-medium">
 								{" "}
-								tech enthusiast
+								technology company
 							</span>{" "}
 							and
 							<span className="text-black font-medium">
 								{" "}
 								aspiring Web Developer.
 							</span>{" "}
-							Originating from Pasuruan, East Java, Indonesia,
-							I&rsquo;m currently embarking on a fascinating
-							journey at{" "}
-							<span className="text-black font-medium">
-								Universitas Negeri Malang,
+							
+							Our Journey:{" "}
+							<span className="text-black font-medium">Nurturing Curiosity,
+								
 							</span>{" "}
-							where I&rsquo;m pursuing my degree in{" "}
+							Igniting Discovery
+							{" "}
 							<span className="text-black font-medium">
 								Informatics Engineering.
 							</span>{" "}
-							My passion for technology and coding knows no
-							bounds. Beyond the world of coding, I find myself
-							deeply immersed in the realms of design, Game
-							Development, and the fascinating universe of AI. I
-							believe that in today&rsquo;s fast-paced digital
-							landscape, being a
+							Embark on a journey with us as we navigate the dynamic landscapes of technology. Picture a genesis fueled by passion, where bytes of curiosity collided to spark the inception of TechInsightsHub.
 							<span className="text-black font-medium">
 								{" "}
-								lifelong learner
+								Each click, each scroll, and every shared insight represents a step in our expedition to demystify the intricate dance between humans and technology.
 							</span>{" "}
 							is not just a choice, but a necessity. Let&rsquo;s
 							connect and explore this ever-evolving world of tech
@@ -226,10 +223,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl md:text-xl font-normal mb-3 md:tracking-[.3rem] lg:tracking-[.5rem] uppercase ">
-							Language & Framework
+						Meet the Minds Behind the Hub
 						</h2>
 						<p className="text-gray-500 text-center tracking-widest md:px-5">
-							<span className="text-black font-bold">HTML</span> |{" "}
+							<span className="text-black font-bold">HTMLs </span> |{" "}
 							<span className="text-black font-bold">CSS</span> |{" "}
 							<span className="text-black font-bold">
 								Javascript
@@ -399,23 +396,19 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold mb-3">
-							Education | Universitas Negeri Malang
+							Our North Star: Mission and Values
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
-							Teknik Informatika | 2022 - Now
+						    In this digital cosmos, our mission pulsates with the rhythm of innovation. We are here to empower, educate, and exhilarate. We value authenticity, inclusivity, and the relentless pursuit of knowledge. TechInsightsHub is more than a website; it's a commitment to nurturing a global community tethered by the strings of technological wonder.
+
+							
 						</h3>
 						<p className="pl-3 text-gray-500  relative text-justify">
 							<span className="before:border-s-2 before:absolute before:left-0 before:top-0 before:h-full before:border-gray-400 before:block before:w-2 before:content-'' "></span>
-							I&rsquo;m currently in my third semester at
-							Universitas Negeri Malang, majoring in Informatics
-							Engineering. This journey has been nothing short of
-							exhilarating, filled with countless opportunities to
-							learn and grow. With a steadfast dedication to my
-							studies, I&rsquo;ve achieved a commendable GPA of
-							3.93. Throughout my academic journey, I&rsquo;ve
-							delved into various facets of computer science,
-							honing my skills in web development, programming,
-							and problem-solving.
+							Beyond the Horizon: Vision and Future Endeavors
+
+As we stand at the precipice of tomorrow, envision TechInsightsHub as the compass guiding you through the uncharted territories of technology. Our gaze is fixed on the horizon of possibilities, where every pixel on your screen conceals a potential breakthrough. Join us as we unfold chapters yet written and explore the uncharted frontiers of the digital realm.
+
 						</p>
 					</motion.div>
 					<motion.div
@@ -434,22 +427,18 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold mb-3">
-							Experience | Freelance Web Developer
+						    Engage,
+							
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
-							Fullstack Web Developer | 2023 - Now
+						    Explore , Evolve
+							
 						</h3>
 						<p className="pl-3 text-gray-500 relative text-justify">
 							<span className="before:border-s-2 before:absolute before:left-0 before:top-0 before:h-full before:border-gray-400 before:block before:w-2 before:content-'' "></span>
-							My experience extends across various technologies,
-							with a primary focus on Next.js and Laravel.
-							I&rsquo;ve successfully completed three projects
-							using Next.js and Laravel. What sets me apart is my
-							ability to adapt to different project requirements.
-							Whether working collaboratively as part of a team or
-							independently, I ensure that each project I
-							undertake meets high-quality standards and fulfills
-							the unique needs of clients.
+							TechInsightsHub is more than a spectator sport; it&rsquo;s an interactive odyssey. Engage with our community, immerse yourself in thought-provoking content, and explore the nuances of the tech universe. The journey is limitless, and the discoveries are boundless. Together, let&rsquo;s evolve the narrative of technology.
+							TechInsightsHub: Where Tech Unleashes Its Story.
+
 						</p>
 					</motion.div>
 				</div>
