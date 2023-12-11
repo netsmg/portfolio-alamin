@@ -7,10 +7,10 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "../../public/img/me.jpg";
-import MeAbout from "@/public/img/me2.jpg";
-import Setup from "@/public/img/setup.jpg";
-import ProjectAll from "@/public/img/projects-all.jpg";
+import Me from "../../public/img/mid.svg";
+import MeAbout from "@/public/img/logo.svg";
+import Setup from "@/public/img/setup.svg";
+import ProjectAll from "@/public/img/projects-all.svg";
 import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
