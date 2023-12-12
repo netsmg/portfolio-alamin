@@ -29,29 +29,8 @@
     "sharp": "^0.32.5",
     "sitemap": "^7.1.1",
     "swr": "^2.2.2",
-    "tailwindcss": "3.3.3",
-    "material-ui": "^0.17.0",
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.57",
-    "@material-ui/styles": "^4.11.3",
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "firebase": "^9.17.1",
-    "react-firebase-hooks": "^5.0.3",
-    "lodash": "^4.17.21",
-    "pdf-lib": "^1.17.1",
-    
-    "react-countup": "^6.4.2",
-    
-    "react-hot-toast": "^2.4.1",
-    "react-player": "^2.11.2",
-    "react-router-dom": "^6.8.1",
-    "react-visibility-sensor": "^5.1.1",
-    "react-pwa-install": "^1.0.12",
-    "react-icons": "^4.8.0"
-  },
+    "tailwindcss": "3.3.3"
+ },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.19",
     "cross-env": "^7.0.3"
