@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import QuestionComponent from '../components/QuestionComponent';
+import QuestionComponent from '@/components/QuestionComponent';
 
 const MCQPage = () => {
   const [userResponses, setUserResponses] = useState([]);
