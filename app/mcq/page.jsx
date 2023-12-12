@@ -1,4 +1,4 @@
-// pages/mcq.js
+"use client";
 import { useState } from 'react';
 import QuestionComponent from '../components/QuestionComponent';
 
