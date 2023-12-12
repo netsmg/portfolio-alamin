@@ -1,3 +1,4 @@
+"use client";
 import { db } from '@/config/firebase';
 
 async function addUser(user) {
