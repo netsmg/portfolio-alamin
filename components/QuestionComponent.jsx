@@ -1,4 +1,4 @@
-
+"use client";
 import { useState } from 'react';
 
 const QuestionComponent = ({ question, options, onSubmit }) => {
