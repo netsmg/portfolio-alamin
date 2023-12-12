@@ -65,7 +65,23 @@ dependencies:
   tailwindcss:
     specifier: 3.3.3
     version: 3.3.3
+    
+  firebase:
+specifier: ^9.17.1
+version: 9.17.1
 
+react-firebase-hooks:
+specifier: ^5.0.3
+version: 5.0.3
+
+loadash:
+specifier: ^4.17.21
+version: 4.17.21
+    
+  pdf-lib:
+  specifier: ^1.17.1
+  version: 1.17.1
+  
 devDependencies:
   '@next/bundle-analyzer':
     specifier: ^13.4.19
