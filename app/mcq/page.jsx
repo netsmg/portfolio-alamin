@@ -1,78 +1,37 @@
 "use client";
-import React from "react";
-import { Link } from "react-router-dom";
+import { useState } from 'react';
+import QuestionComponent from '@/components/QuestionComponent';
 
-function Page() {
+const Page = () => {
+  const [userResponses, setUserResponses] = useState([]);
+
+  const questions = [
+    {
+      question: 'What is the capital of France?',
+      options: ['Berlin', 'Madrid', 'Paris', 'Rome'],
+      correctAnswer: 'Paris',
+    },
+    // Add more questions as needed
+  ];
+
+  const handleQuestionSubmit = (userResponse) => {
+    setUserResponses([...userResponses, userResponse]);
+    // You can store or process the responses as needed
+  };
+
   return (
-    <div className="Page">
-      <div className="intro-box">
-        <div className="intro-texts">
-          <h1 className="intro-title">English Vocabulary Quizzes</h1>
-          <p className="intro-description">Choose the quiz you want to solve</p>
-        </div>
-        <div className="intro-icon">
-          <i className="bi bi-question-circle"></i>
-        </div>
-      </div>
-
-      <div className="level-boxes">
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">A1</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/A1">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">A2</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/A2">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">B1</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/B1">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">B2</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/B2">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">C1</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/C1">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-        <div className="level-box">
-          <div className="level-text">
-            <h2 className="level-name">C2</h2>
-            <span>Level</span>
-          </div>
-          <Link className="level-link" to="/quiz/C2">
-            <span>Start Quiz</span> <i className="bi bi-arrow-right"></i>
-          </Link>
-        </div>
-      </div>
+    <div>
+      {questions.map((question, index) => (
+        <QuestionComponent
+          key={index}
+          question={question.question}
+          options={question.options}
+          onSubmit={(userResponse) => handleQuestionSubmit({ questionIndex: index, userResponse })}
+        />
+      ))}
+      {/* Display results or perform additional actions */}
     </div>
   );
-}
+};
 
 export default Page;
