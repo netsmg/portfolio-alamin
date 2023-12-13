@@ -11,7 +11,7 @@ function load() {
 		return;
 	}
 
-	state = "loading";
+	state ="loading";
 
 	timer = setTimeout(() => {
 		NProgress.start();
