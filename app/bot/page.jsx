@@ -5,7 +5,11 @@ import React, { useState } from 'react';
 const Chatbot = () => {
   const [inputValue, setInputValue] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
-  const recognition = new window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (typeof window !== 'undefined') {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const newRecognition = new SpeechRecognition();
+
+  
 
   const handleSpeechRecognition = () => {
     const recorder = new recognition();
