@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useQuizContext } from "@/components/QuizContext";
-import { useNavigate, useParams } from "react-router-dom";
+
 
 function Page() {
   const { level } = useParams();
