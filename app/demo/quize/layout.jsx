@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 
 export const metadata = {
-	title: "Demo | quize",
+	title: "Demo | Quize",
 };
 export default function Layout({ children }) {
   return (
