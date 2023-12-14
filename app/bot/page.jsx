@@ -1,35 +1,42 @@
-
 "use client";
+
 import React, { useState } from 'react';
 
 const Chatbot = () => {
   const [inputValue, setInputValue] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
-  if (typeof window !== 'undefined') {
+  const [recognition, setRecognition] = useState(null);
+
+  useEffect(() => {
+    // Check if window is defined (to avoid server-side rendering issues)
+    if (typeof window !== 'undefined') {
       const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
       const newRecognition = new SpeechRecognition();
 
-  
+      newRecognition.onstart = () => {
+        console.log('Voice is active');
+      };
+
+      newRecognition.onend = () => {
+        console.log('Voice ended');
+      };
+
+      newRecognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setInputValue(transcript);
+        handleFormSubmit();
+      };
+
+      setRecognition(newRecognition);
+    }
+  }, []);
 
   const handleSpeechRecognition = () => {
-    const recorder = new recognition();
-
-    recorder.onstart = () => {
-      console.log('Voice is active');
-    };
-
-    recorder.onend = () => {
-      console.log('Voice ended');
-    };
-
-    recorder.onresult = (event) => {
-      const transcript = event.results[0][0].transcript;
-      setInputValue(transcript);
-      handleFormSubmit();
-    };
-
-    recorder.start();
+    if (recognition) {
+      recognition.start();
+    }
   };
+
 
   const handleFormSubmit = (e) => {
     if (e) e.preventDefault();
@@ -65,7 +72,7 @@ const Chatbot = () => {
   };
 
   return (
-    <>
+  <>
     <div className="main-container">
       <div id="chatbot-container">
         {/* Render chat history */}
