@@ -1,0 +1,21 @@
+"use client";
+import { useEffect } from "react";
+import Link from "next/link";
+
+export default function Newsletter() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	
+	const handleBack = () => {
+		window.location.href = "/";
+	};
+	return (
+		<>
+		<div> <div className="modal-popup"> <div className="popup-header"> <h1>Creating email templates has never been easier.</h1> </div> <div className="popup-body"> <div className="popup-content"> <p className="popup-txt">Receive daily emails on how to best create email templates, completely free.</p> <form action="#" className="popup-form"> <input type="email" className="popup-form-input" placeholder="Email Address" required /> <button className="popup-form-submit"> Subscribe</button> </form> <span className="popup-alt-txt">No spam, ever. Unsubscribe anytime.</span> <div className="popup-profile"> <div className="profile-content"> <div className="profile-img"> <img src="https://rvs-newsletter-popup.vercel.app/Assets/User-Avatar.svg" alt /> </div> <div className="profile-details"> <h4 className="profile-name">Nathan Drake</h4> <p className="profile-desig">Newsletter Designer</p> </div> </div> <div className="profile-txt"> <p>“By far one of the best newsletter i&rsquo;ve ever subscribed to. It is sent biweekly and i&rsquo;m always looking forward to their emails.” </p> </div> </div> </div> </div> </div> <style dangerouslySetInnerHTML={{__html: "\n @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap'); * { margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Work Sans', sans-serif; } body { width: 100%; height: 100vh; background: url(https://rvs-newsletter-popup.vercel.app/Assets/Background.png); background-repeat: no-repeat; background-size: cover; background-position: center; position: relative; } .modal-popup { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 500px; background: #fff; border-radius: 5px; overflow: hidden; } .modal-popup .popup-header { width: 100%; padding: 60px 0px; display: flex; justify-content: center; background: #2355f2 url(./Assets/Pattern.png); background-repeat: no-repeat; background-size: cover; background-position: center; } .modal-popup .popup-header h1 { width: 70%; text-align: center; color: #fff; font-size: 34px; line-height: 42px; font-weight: 600; } .modal-popup .popup-body { width: 100%; padding: 25px 0px; display: flex; justify-content: center; } .modal-popup .popup-body .popup-content { width: 90%; display: flex; flex-direction: column; align-items: center; row-gap: 5px; } .modal-popup .popup-body .popup-content .popup-txt, .modal-popup .popup-body .popup-profile .profile-txt p { width: 90%; color: #a3a3a3; line-height: 20px; text-align: center; font-weight: 500; } .modal-popup .popup-body .popup-content .popup-form { width: 100%; display: flex; column-gap: 10px; margin-top: 15px; } .modal-popup .popup-body .popup-content .popup-form input, .modal-popup .popup-body .popup-content .popup-form button { padding: 15px; border-radius: 5px; outline: none; font-size: 16px; } .modal-popup .popup-body .popup-content .popup-form input { width: 70%; border: 2px solid #e9eaf1; background-color: #f5f7fa; color: #a3a3a3; } .modal-popup .popup-body .popup-content .popup-form button { cursor: pointer; background-color: #2355f2; border: 0px; color: #fff; } .modal-popup .popup-body .popup-content .popup-alt-txt { width: 100%; color: #a3a3a3aa; line-height: 20px; text-align: start; font-weight: 500; } .modal-popup .popup-body .popup-profile { display: flex; flex-direction: column; align-items: center; row-gap: 12px; margin-top: 20px; } .modal-popup .popup-body .popup-profile .profile-content { display: flex; column-gap: 12px; align-items: center; } .modal-popup .popup-body .popup-profile .profile-content .profile-img img { width: 50px; } .modal-popup .popup-body .popup-profile .profile-content .profile-details h4 { font-weight: 600; } .modal-popup .popup-body .popup-profile .profile-content .profile-details p { color: #a3a3a3; font-size: 14px; } @media only screen and (max-width: 600px) { body { overflow: hidden; } .modal-popup { width: 100%; } .modal-popup .popup-header { padding: 50px 0px; } .modal-popup .popup-header h1 { width: 80%; } }\n" }} /> </div>
+			 
+					
+		</>
+	);
+}
